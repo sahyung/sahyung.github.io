@@ -1,0 +1,22 @@
+version: "3"
+services:
+  prod:
+    profiles:
+      - "donotstart"
+    build: .
+    container_name: resume
+    image: resume:local
+    ports:
+      - 8080:80/tcp
+  dev:
+    command: npm run serve
+    container_name: resume
+    environment:
+      - NODE_OPTIONS=--openssl-legacy-provider
+    image: node:alpine
+    ports:
+      - 8080:8080/tcp
+    tty: true
+    volumes:
+      - $PWD:/app
+    working_dir: /app

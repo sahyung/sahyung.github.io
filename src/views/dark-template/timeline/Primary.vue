@@ -378,8 +378,8 @@ export default {
         iconImage: './img/timeline/heolys-icon.png',
       },
       {
-        detailed   : true,
-        transparent: true,
+        detailed   : false,
+        transparent: false,
         year       : '2018 - 19',
         title      : 'Fondaco (Freelance)',
         html       : `
@@ -441,8 +441,8 @@ export default {
         iconImage: './img/timeline/solene-icon.png',
       },
       {
-        detailed   : true,
-        transparent: true,
+        detailed   : false,
+        transparent: false,
         year       : '2019',
         title      : 'Kreditpro (Freelance)',
         html       : `
@@ -515,8 +515,8 @@ export default {
         iconImage: './img/timeline/mindo-icon.png',
       },
       {
-        detailed   : true,
-        transparent: true,
+        detailed   : false,
+        transparent: false,
         year       : '2020',
         title      : 'Dotdotread (Freelance)',
         html       : `
@@ -527,7 +527,7 @@ export default {
                 Responsibilities:
                 <ul>
                     <li>Develop backend REST API using <a href="https://nestjs.com/">NestJS</a> framework for mobile apps and web portal.</li>
-                    <li>Configure <a href="https://magento.com/">magento2</a> with <a href="https://www.vuestorefront.io/">vue-storefront</a>vue-storefront to be used as e-commerce platform with <a href="https://docker.com/">Docker</a> for containerization.</li>
+                    <li>Configure <a href="https://magento.com/">magento2</a> with <a href="https://www.vuestorefront.io/">vue-storefront</a> to be used as e-commerce platform with <a href="https://docker.com/">Docker</a> for containerization.</li>
                 </ul>
             </p>
             <p>
@@ -542,8 +542,8 @@ export default {
         iconImage: './img/timeline/ddr-icon.png',
       },
       {
-        detailed   : true,
-        transparent: true,
+        detailed   : false,
+        transparent: false,
         year       : '2020 - 2021',
         title      : 'Homker (Freelance)',
         html       : `
@@ -646,9 +646,11 @@ export default {
         iconImage: './img/timeline/bni-icon.png',
       },
       {
-        year : '2020 - Present',
-        title: 'PT. Solusi Pembayaran Elektronik',
-        html : `
+        detailed   : false,
+        transparent: false,
+        year       : '2020 - Present',
+        title      : 'PT. Solusi Pembayaran Elektronik',
+        html       : `
           <p>
               Current status: <span class="orange--text lighten-1">contract until September 2022</span>
           </p>
@@ -662,7 +664,7 @@ export default {
                 Current responsibilities:
                 <ul>
                   <li>Maintain Back Office Web Portals and Services.</li>
-                  <li>Use <a href="https://golang.org/">GoLang</a>, <a href="https://www.mongodb.com/">MongoDB</a>, <a href="https://www.mysql.com/">MySQL</a>, <a href="https://www.rabbitmq.com/">RabbitMQ</a>, <a href="https://redis.io/">Redis</a>,  <a href="https://www.yiiframework.com/">Yii2 Framework</a>,  and <a href="https://docker.com/">Docker</a> for orchestration</li>
+                  <li>Use <a href="https://expressjs.com/">Express.js</a>, <a href="https://golang.org/">GoLang</a>, <a href="https://www.mongodb.com/">MongoDB</a>, <a href="https://www.mysql.com/">MySQL</a>, <a href="https://www.rabbitmq.com/">RabbitMQ</a>, <a href="https://redis.io/">Redis</a>,  <a href="https://www.yiiframework.com/">Yii2 Framework</a>,  and <a href="https://docker.com/">Docker</a> for orchestration</li>
                 </ul>
             </p>
         `,

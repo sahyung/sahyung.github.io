@@ -2,6 +2,7 @@
 FROM node:stretch-slim as build-stage
 WORKDIR /app
 COPY package*.json ./
+ENV NODE_OPTIONS=--openssl-legacy-provider
 RUN npm install
 COPY . .
 # CMD ["npm", "run", "serve"]

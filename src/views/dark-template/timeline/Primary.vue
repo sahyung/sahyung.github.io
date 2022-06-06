@@ -125,7 +125,7 @@ export default {
   name      : 'Timeline',
   components: { ContentSection },
   data      : () => ({
-    detailed: true,
+    detailed: false,
     items   : [
       {
         detailed   : true,

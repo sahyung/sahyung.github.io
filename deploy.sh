@@ -6,5 +6,5 @@ cd ./dist
 git init
 git add .
 git commit -m "update $COMMIT"
-git push -f git@github.com:sahyung/sahyung.github.io.git main:gh-pages
+git push -f git@github.com:sahyung/sahyung.github.io.git master:gh-pages
 popd

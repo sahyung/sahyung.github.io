@@ -2,6 +2,7 @@
 
 pushd $PWD
 COMMIT=$(git log --oneline -1|awk '{print $1}')
+docker exec resume npm run build
 cd ./dist
 git init
 git add .

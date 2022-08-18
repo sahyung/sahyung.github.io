@@ -64,9 +64,6 @@
         id="to-timeline"
         title="Skills"
       >
-        <template slot="actions">
-          (% are relative not absolute)
-        </template>
         <v-layout wrap>
           <template
             v-for="(skill, i) in skills"
@@ -95,6 +92,7 @@
                   </v-icon>
                   {{ skill.title }}
                 </div>
+                {{ skill.text }}
                 <v-progress-linear
                   class="progress"
                   color="secondary"
@@ -161,84 +159,66 @@ export default {
       {
         title: 'PHP',
         icon : 'mdi-language-php',
-        value: 80,
-      },
-      {
-        title: 'JavaScript',
-        icon : 'mdi-language-javascript',
-        value: 75,
-      },
-      {
-        title: 'Laravel Framework',
-        icon : 'mdi-laravel',
-        value: 80,
+        // value: 80,
+        text : 'Experienced with Laravel, Yii2 and Code Igniter framework',
       },
       {
         title: 'NodeJS',
         icon : 'mdi-nodejs',
-        value: 75,
-      },
-      {
-        title: 'Yii2 Framework',
-        icon : 'mdi-language-php',
-        value: 60,
+        // value: 75,
+        text : 'Experienced with Express and NestJS framework',
       },
       {
         title: 'Golang',
         icon : 'mdi-language-go',
-        value: 70,
+        // value: 70,
       },
+      {
+        title: 'Docker / Containerization',
+        icon : 'mdi-docker',
+        // value: 83,
+      },
+      { divider: true },
       {
         title: 'MySQL',
         icon : 'mdi-database',
-        value: 75,
+        // value: 75,
       },
       {
         title: 'MongoDB',
         icon : 'mdi-database',
-        value: 75,
+        // value: 75,
+      },
+      {
+        title: 'Git',
+        icon : 'mdi-git',
+        // value: 80,
+      },
+      {
+        title: 'CI/CD',
+        icon : 'mdi-truck-fast',
+        // value: 52,
       },
       { divider: true },
       {
         title: 'Ubuntu Server',
         icon : 'mdi-ubuntu',
-        value: 65,
+        // value: 65,
       },
       {
         title: 'CentOS Server',
         icon : 'mdi-linux',
-        value: 70,
+        // value: 70,
       },
       {
         title: 'Web Application Security',
         icon : 'mdi-shield-lock',
-        value: 63,
+        // value: 63,
       },
       {
         title: 'Test Driven Development',
         icon : 'mdi-test-tube',
-        value: 46,
-      },
-      {
-        title: 'CI/CD',
-        icon : 'mdi-truck-fast',
-        value: 52,
-      },
-      {
-        title: 'Git',
-        icon : 'mdi-git',
-        value: 80,
-      },
-      { divider: true },
-      {
-        title: 'Docker / Containerization',
-        icon : 'mdi-docker',
-        value: 83,
-      },
-      {
-        title: 'Hardware Development',
-        icon : 'mdi-chip',
-        value: 39,
+        // value: 46,
       },
       { divider: true },
     ],

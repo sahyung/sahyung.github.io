@@ -16,18 +16,7 @@
 
       <sidebar-section :options="sections.info" />
       <sidebar-section :options="sections.socials" />
-      <sidebar-section :options="sections.hobbies">
-        <template v-slot:item="{item}">
-          <v-chip>
-            <v-avatar>
-              <v-icon>
-                {{ item.icon }}
-              </v-icon>
-            </v-avatar>
-            {{ item.text }}
-          </v-chip>
-        </template>
-      </sidebar-section>
+
       <sidebar-section :options="sections.languages">
         <template v-slot:items="{items}">
           <v-container pa-0>
@@ -60,6 +49,18 @@
           </v-container>
         </template>
       </sidebar-section>
+      <sidebar-section :options="sections.hobbies">
+        <template v-slot:item="{item}">
+          <v-chip>
+            <v-avatar>
+              <v-icon>
+                {{ item.icon }}
+              </v-icon>
+            </v-avatar>
+            {{ item.text }}
+          </v-chip>
+        </template>
+      </sidebar-section>
     </v-card-text>
   </v-card>
 </template>
@@ -76,6 +77,11 @@ export default {
         info: {
           title: 'INFO',
           items: [
+            {
+              name: 'Phone',
+              icon: 'mdi-whatsapp',
+              text: '+62 8990431219',
+            },
             {
               name: 'Email',
               icon: 'mdi-email',
@@ -130,10 +136,6 @@ export default {
             {
               icon: 'mdi-auto-fix',
               text: 'Hacking Stuffs',
-            },
-            {
-              icon: 'mdi-draw',
-              text: 'Drawing',
             },
             {
               icon: 'mdi-karate',

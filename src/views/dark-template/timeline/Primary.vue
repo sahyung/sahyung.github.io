@@ -125,7 +125,7 @@ export default {
   name      : 'Timeline',
   components: { ContentSection },
   data      : () => ({
-    detailed: false,
+    detailed: true,
     items   : [
       {
         detailed   : true,
@@ -551,7 +551,7 @@ export default {
                 <a href="https://homker.co.id/">Homker</a> is a platform for health care services, homker makes it easy for users to provide health care services without having to leave the house. Users also able to make an appointment with a provider that is available on the homker service.
             </p>
             <p>
-                Current responsibilities:
+                Main responsibilities:
                 <ul>
                     <li>Develop backend REST API using <a href="https://laravel.com/">Laravel</a> framework for mobile apps and web portal.</li>
                 </ul>
@@ -563,16 +563,16 @@ export default {
       {
         detailed   : true,
         transparent: true,
-        year       : '2020 - Present',
+        year       : '2020 - 2022',
         title      : 'BNI AutoPay',
         html       : `
             <p>
                 <a href="https://autopay.bni-ecollection.com/">Autopay</a> Is a payment system owned by <a href="https://www.bni.co.id/">BNI</a> that has the capacity to autodebit from BNI's individual taplus accounts. VA Auto Pay will produce a web application for monitoring and service that can be integrated with many e-commerce or marketplaces.
             </p>
             <p>
-                Current responsibilities:
+                Main responsibilities:
                 <ul>
-                  <li>Develop and Maintenance Backend Services</li>
+                  <li>Develop and Maintenance Web Portal and Backend Services</li>
                   <li>Developing with:</li>
                   <ul>
                     <li><a href="https://docker.com/">Docker</a></li>
@@ -619,16 +619,16 @@ export default {
       {
         detailed   : true,
         transparent: true,
-        year       : '2022 - Present',
+        year       : '2022',
         title      : 'BNI AutoPay V2',
         html       : `
             <p>
                 Autopay V2 Is a new version of <a href="https://autopay.bni-ecollection.com/">Autopay</a> following <a href="https://www.bi.go.id/id/layanan/Standar/SNAP/default.aspx">BNI SNAP</a> rules.
             </p>
             <p>
-                Current responsibilities:
+                Main responsibilities:
                 <ul>
-                  <li>Develop and Maintenance Backend Services</li>
+                  <li>Develop and Maintenance Web Portal and Backend Services</li>
                   <li>Developing with:</li>
                   <ul>
                     <li><a href="https://docker.com/">Docker</a></li>
@@ -648,25 +648,22 @@ export default {
       {
         detailed   : false,
         transparent: false,
-        year       : '2020 - Present',
+        year       : '2020 - 2022',
         title      : 'PT. Solusi Pembayaran Elektronik',
         html       : `
           <p>
-              Current status: <span class="orange--text lighten-1">contract until September 2022</span>
+              <a href="https://spesolution.com/">SPE</a> is a company who provide financial management technology platform solutions for modern business.
           </p>
-            <p>
-                <a href="https://spesolution.com/">SPE</a> is a company who provide financial management technology platform solutions for modern business.
-            </p>
-            <p>
-                SPE provides high end solutions to enhance its client technology systems. Based on its experience and knowledge in Financial Technology (FinTech) fields for more than 6 years, SPE helped its clients build end-to-end financial technology solutions. SPE has specialists in the field of payment solutions development and management, payment gateways, e-commerce, switching, chain management systems, smart community, gamification, and also merchant management.
-            </p>
-            <p>
-                Current responsibilities:
-                <ul>
-                  <li>Maintain Back Office Web Portals and Services.</li>
-                  <li>Use <a href="https://expressjs.com/">Express.js</a>, <a href="https://golang.org/">GoLang</a>, <a href="https://www.mongodb.com/">MongoDB</a>, <a href="https://www.mysql.com/">MySQL</a>, <a href="https://www.rabbitmq.com/">RabbitMQ</a>, <a href="https://redis.io/">Redis</a>,  <a href="https://www.yiiframework.com/">Yii2 Framework</a>,  and <a href="https://docker.com/">Docker</a> for orchestration</li>
-                </ul>
-            </p>
+          <p>
+              SPE provides high end solutions to enhance its client technology systems. Based on its experience and knowledge in Financial Technology (FinTech) fields for more than 6 years, SPE helped its clients build end-to-end financial technology solutions. SPE has specialists in the field of payment solutions development and management, payment gateways, e-commerce, switching, chain management systems, smart community, gamification, and also merchant management.
+          </p>
+          <p>
+              Main responsibilities:
+              <ul>
+                <li>Maintain Back Office Web Portals and Services.</li>
+                <li>Use <a href="https://expressjs.com/">Express.js</a>, <a href="https://golang.org/">GoLang</a>, <a href="https://www.mongodb.com/">MongoDB</a>, <a href="https://www.mysql.com/">MySQL</a>, <a href="https://www.rabbitmq.com/">RabbitMQ</a>, <a href="https://redis.io/">Redis</a>,  <a href="https://www.yiiframework.com/">Yii2 Framework</a>,  and <a href="https://docker.com/">Docker</a> for orchestration</li>
+              </ul>
+          </p>
         `,
         image    : './img/timeline/spe.jpg',
         iconImage: './img/timeline/spe-icon.png',

@@ -563,7 +563,7 @@ export default {
       {
         detailed   : true,
         transparent: true,
-        year       : '2020 - 2022',
+        year       : '2020 - 22',
         title      : 'BNI AutoPay',
         html       : `
             <p>
@@ -648,7 +648,7 @@ export default {
       {
         detailed   : false,
         transparent: false,
-        year       : '2020 - 2022',
+        year       : '2020 - 22',
         title      : 'PT. Solusi Pembayaran Elektronik',
         html       : `
           <p>

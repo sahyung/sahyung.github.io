@@ -33,6 +33,26 @@
                   sm4
                   xs6
                 >
+                  <a
+                    v-if="item.link"
+                    class="grey--text"
+                    :href="item.link"
+                    target="_blank"
+                  >
+                    <v-progress-circular
+                      rotate="360"
+                      size="65"
+                      width="2"
+                      :value="item.value"
+                      color="white"
+                      class="ma-2"
+                    >
+                      {{ item.text }}
+                    </v-progress-circular>
+                  </a>
+                  <span
+                    v-else
+                  >
                   <v-progress-circular
                     rotate="360"
                     size="65"
@@ -43,6 +63,7 @@
                   >
                     {{ item.text }}
                   </v-progress-circular>
+                  </span>
                 </v-flex>
               </template>
             </v-layout>
@@ -81,16 +102,19 @@ export default {
               name: 'Phone',
               icon: 'mdi-whatsapp',
               text: '+62 8990431219',
+              link: 'https://wa.me/628990431219',
             },
             {
               name: 'Email',
               icon: 'mdi-email',
               text: 'ende.astro@gmail.com',
+              link: 'mailto:ende.astro@gmail.com',
             },
             {
               name: 'Habitation',
               icon: 'mdi-map-marker',
               text: 'Yogyakarta, Indonesia',
+              link: 'https://s.id/sendowo-A7',
             },
           ],
         },
@@ -160,7 +184,8 @@ export default {
           items: [
             {
               text : 'English',
-              value: 85,
+              value: 88,
+              link : 'https://www.efset.org/cert/3HDw5q',
             },
             {
               text : 'Indonesia',

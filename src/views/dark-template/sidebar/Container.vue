@@ -53,16 +53,16 @@
                   <span
                     v-else
                   >
-                  <v-progress-circular
-                    rotate="360"
-                    size="65"
-                    width="2"
-                    :value="item.value"
-                    color="white"
-                    class="ma-2"
-                  >
-                    {{ item.text }}
-                  </v-progress-circular>
+                    <v-progress-circular
+                      rotate="360"
+                      size="65"
+                      width="2"
+                      :value="item.value"
+                      color="white"
+                      class="ma-2"
+                    >
+                      {{ item.text }}
+                    </v-progress-circular>
                   </span>
                 </v-flex>
               </template>

@@ -131,7 +131,7 @@ export default {
         detailed   : true,
         transparent: true,
         year       : '1990',
-        title      : 'Born on August 17, 1990',
+        title      : 'Born on August 18, 1990',
         html       : 'With a chance of %0.00000000000512.<br>I\'m completely aware of value of the life!',
         icon       : 'mdi-cake-variant',
       },
@@ -378,8 +378,8 @@ export default {
         iconImage: './img/timeline/heolys-icon.png',
       },
       {
-        detailed   : false,
-        transparent: false,
+        detailed   : true,
+        transparent: true,
         year       : '2018 - 19',
         title      : 'Fondaco (Freelance)',
         html       : `
@@ -441,8 +441,8 @@ export default {
         iconImage: './img/timeline/solene-icon.png',
       },
       {
-        detailed   : false,
-        transparent: false,
+        detailed   : true,
+        transparent: true,
         year       : '2019',
         title      : 'Kreditpro (Freelance)',
         html       : `
@@ -515,8 +515,8 @@ export default {
         iconImage: './img/timeline/mindo-icon.png',
       },
       {
-        detailed   : false,
-        transparent: false,
+        detailed   : true,
+        transparent: true,
         year       : '2020',
         title      : 'Dotdotread (Freelance)',
         html       : `
@@ -542,9 +542,9 @@ export default {
         iconImage: './img/timeline/ddr-icon.png',
       },
       {
-        detailed   : false,
-        transparent: false,
-        year       : '2020 - 2021',
+        detailed   : true,
+        transparent: true,
+        year       : '2020 - 21',
         title      : 'Homker (Freelance)',
         html       : `
             <p>

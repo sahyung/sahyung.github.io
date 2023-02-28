@@ -99,10 +99,10 @@ export default {
           title: 'INFO',
           items: [
             {
-              name: 'Phone',
-              icon: 'mdi-whatsapp',
-              text: '+62 8990431219',
-              link: 'https://wa.me/628990431219',
+              name: 'Card',
+              icon: 'mdi-account-card-details',
+              text: 'My Card',
+              link: 'https://s.id/hyung-card',
             },
             {
               name: 'Email',

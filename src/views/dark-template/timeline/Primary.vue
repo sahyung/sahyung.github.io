@@ -668,6 +668,28 @@ export default {
         image    : './img/timeline/spe.jpg',
         iconImage: './img/timeline/spe-icon.png',
       },
+      {
+        detailed   : false,
+        transparent: false,
+        year       : '2022',
+        title      : 'PT. Rantai Pasok Teknologi',
+        html       : `
+          <p>
+              <a href="https://fishlog.co.id/">Fishlog</a> is B2B marketplace enabling nationwide fisheries cold chain network through community engagement. We empower cold storage warehouses to improve their utility by connecting them with more fishermen, distributors and buyers. Streamlining the seafood supply chain across stakeholders. Building efficient processes, fair-trade transactions and sustainable distribution through technology.
+          </p>
+          <p>
+              Main responsibilities:
+              <ul>
+                <li>
+                  As the Technical Lead specializing in Golang, I led the development and deployment of advanced technologies, utilizing my extensive knowledge to foster innovation and ensure exceptional outcomes.</li>
+                <li>
+                  Use but not limited to <a href="https://www.typescriptlang.org/">TypeScript</a>, <a href="https://golang.org/">GoLang</a>, <a href="https://www.mongodb.com/">MongoDB</a>, <a href="https://www.postgresql.org//">PostgreSQL</a>,  <a href="https://cloud.google.com/">GCP</a>, <a href="https://docker.com/">Docker</a> and <a href="https://bubble.io/">Bubble</a> </li>
+              </ul>
+          </p>
+        `,
+        image    : './img/timeline/fishlog.png',
+        iconImage: './img/timeline/fishlog-icon.png',
+      },
     ],
   }),
   computed: {

@@ -180,14 +180,16 @@ export default {
       },
       { divider: true },
       {
-        title: 'MySQL',
+        title: 'SQL',
         icon : 'mdi-database',
         // value: 75,
+        text : 'Experienced with MySQL, Postgre, Oracle',
       },
       {
-        title: 'MongoDB',
+        title: 'NoSQL',
         icon : 'mdi-database',
         // value: 75,
+        text : 'Experienced with MongoDB and Redis',
       },
       {
         title: 'Git',
@@ -201,14 +203,16 @@ export default {
       },
       { divider: true },
       {
-        title: 'Ubuntu Server',
+        title: 'Traditional Server',
         icon : 'mdi-ubuntu',
         // value: 65,
+        text : 'Experienced with Ubuntu and Centos Server',
       },
       {
-        title: 'CentOS Server',
-        icon : 'mdi-linux',
+        title: 'Cloud Server',
+        icon : 'mdi-cloud-outline',
         // value: 70,
+        text : 'Experienced with GCP and AWS',
       },
       {
         title: 'Web Application Security',
